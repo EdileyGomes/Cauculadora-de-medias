@@ -15,9 +15,9 @@
             <img src="./imagens/images/logo.png" alt="capelo">
             <h1>Calculadora de Médias</h1>
         </header>
-        <form>
-            <input type="text" required placeholder="Nome da Atividade">
-            <input type="number" required placeholder="Nota da Atividade" min="0" max="10">
+        <form id="form-atividade">
+            <input type="text" required placeholder="Nome da Atividade" id="nome-atividade">
+            <input type="number" required placeholder="Nota da Atividade" min="0" max="10" id="nota-atividade">
             <button type="submit">Adicionar +</button>
         </form>
         <table cellspacing = '0'>
@@ -35,17 +35,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>
-                        Atividade 1
-                    </td>
-                    <td>
-                        7
-                    </td>
-                    <td>
-                        <img src="./imagens/images/aprovado.png" alt="Aprovado">
-                    </td>
-                </tr>
+                
             </tbody>
             <tfoot>
                 <tr>
